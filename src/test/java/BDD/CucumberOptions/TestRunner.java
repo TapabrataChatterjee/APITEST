@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(
     features = "src/test/java/BDD/Features",
-    glue = {"StepDefinition"}
+    glue = {"BDD.StepDefinition"}
 )
 
 public class TestRunner
