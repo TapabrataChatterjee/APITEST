@@ -23,20 +23,22 @@ public class StepDefinitions {
     RequestSpecification request;
     ResponseSpecification responseSpecification;
     Response response;
+
     
-    @Given("^AddPlace JSON Payload$")
-    public void add_place_json_payload() throws Exception {
+    
+    @Given("AddPlace JSON Payload {string} {string} {string}")
+    public void add_place_json_payload(String name, String language, String address) throws Exception {
+        // Write code here that turns the phrase above into concrete actions
 
         System.out.println("This is start atgiven");
         Helper helper = new Helper();
         TestDataProvider testData = new TestDataProvider();
         RequestSpecification reqSpec = helper.getNewRequest();
-        Place newPlace = testData.getPlace();
+        Place newPlace = testData.getPlace(name,language,address);
 
         responseSpecification = helper.createResponse();
 
         request = given().log().all().spec(reqSpec).body(newPlace);
-        System.out.println("This is end atgiven");
 
     }
 

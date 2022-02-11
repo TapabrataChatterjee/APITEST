@@ -16,18 +16,18 @@ Body:
         "lng": 33.427362
     },
     "accuracy": 50,
-    "name": "Magicl House",
+    "name": "Magiconical House",
     "phone_number": "(+1)98894543543",
-    "address": "5453453 Address Road",
+    "address": "545357676 Addresses Road",
     "types": [
         "HORNBILL",
         "cobbler's store"
     ],
     "website": "https://google.com",
-    "language": "Bengali"
+    "language": "hindi"
 }
 HTTP/1.1 200 OK
-Date: Fri, 04 Feb 2022 19:09:54 GMT
+Date: Fri, 11 Feb 2022 14:03:50 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -39,5 +39,5 @@ Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
 
 <br />
-<b>Notice</b>:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's store','5453453 Address Road','Bengali','2022-02-04 19:09:54','(+1)98894543543' at line 1 in <b>/var/www/maps/api/place/req_files/DBController.php</b> on line <b>29</b><br />
-{"status":"OK","place_id":"b82d0ccb24392886fe687d614c80ed12","scope":"APP","reference":"e02fcb5f8be499f273a69b23d9081855e02fcb5f8be499f273a69b23d9081855","id":"e02fcb5f8be499f273a69b23d9081855"}
+<b>Notice</b>:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's store','545357676 Addresses Road','hindi','2022-02-11 14:03:50','(+1)988945435' at line 1 in <b>/var/www/maps/api/place/req_files/DBController.php</b> on line <b>29</b><br />
+{"status":"OK","place_id":"38104587a54acd2e439b8090c85c7a05","scope":"APP","reference":"736454cec2812d020595d1b43e11016e736454cec2812d020595d1b43e11016e","id":"736454cec2812d020595d1b43e11016e"}
