@@ -15,14 +15,10 @@ import io.cucumber.core.cli.Main;
     glue = {"BDD.StepDefinition"}
 )
 public class TestRunner
-{
-
-    
+{ 
     public void runTest()
     {
-        System.out.println("This is start atgiven");
-
-
+        System.out.println("Starting @ given");
     }
 
 }
