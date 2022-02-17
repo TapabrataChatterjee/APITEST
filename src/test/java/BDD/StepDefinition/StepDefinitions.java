@@ -6,6 +6,7 @@ import static org.junit.Assert.assertEquals;
 import org.junit.runner.RunWith;
 
 import BDD.Resources.Helper;
+import BDD.Resources.RESTResource;
 import BDD.Resources.TestDataProvider;
 import POJO.Place;
 //import io.cucumber.java.en.And;
@@ -42,10 +43,12 @@ public class StepDefinitions {
 
     }
 
-    @When("^User wants to add new place with Post Request$")
-    public void user_wants_to_add_new_place_with_Post_Request() {
-        
-        response = request.when().post("/maps/api/place/add/json").then().log().all().spec(responseSpecification).extract()
+    
+    @When("User wants to {string} with {string} Request")
+    public void user_wants_to_with_request(String action, String httpVerb)
+    {
+        RESTResource restResource=RESTResource.valueOf(action);
+        response = request.when().post(restResource.getAction()).then().log().all().spec(responseSpecification).extract()
                     .response();
 
                     System.out.println("This is start at when");

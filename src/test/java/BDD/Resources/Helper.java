@@ -20,13 +20,18 @@ public class Helper {
     String key = "key";
     String keyValue = "qaclick123";
     PrintStream logger;
+    static RequestSpecification request;
 
     public RequestSpecification getNewRequest() throws Exception {
+        if(request==null)
+        {
         logger = new PrintStream(new FileOutputStream("logs.txt"));
+        
         baseURI = "baseURL";
-        RequestSpecification request = new RequestSpecBuilder().setBaseUri(getbaseURL(baseURI)).setContentType(contentType)
+        request = new RequestSpecBuilder().setBaseUri(getbaseURL(baseURI)).setContentType(contentType)
                 .addQueryParam(key, keyValue).addFilter(RequestLoggingFilter.logRequestTo(logger))
                 .addFilter(ResponseLoggingFilter.logResponseTo(logger)).build();
+        }
 
         return request;
 
