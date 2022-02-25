@@ -7,10 +7,11 @@ Scenario Outline: Verify that Add Place Functionality is working as expected
  When User wants to "addPlace" with "Post" Request
  Then Place should be added through AddPlace API with a response code 200
  And "Status" is "OK"
+ 
 
 Examples:
     | name | language | address |
-    | Magic House  | Bengali | 5453 Addresses Road  |
+    | Magiculy House  | Bengali lang| 5 Addresses Road  |
     | Magiconical House  | hindi | 545357676 Addresses Road  |
     
 

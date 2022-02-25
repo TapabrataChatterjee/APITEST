@@ -16,18 +16,18 @@ Body:
         "lng": 33.427362
     },
     "accuracy": 50,
-    "name": "Magic House",
+    "name": "Magiculy House",
     "phone_number": "(+1)98894543543",
-    "address": "5453 Addresses Road",
+    "address": "5 Addresses Road",
     "types": [
         "HORNBILL",
         "cobbler's store"
     ],
     "website": "https://google.com",
-    "language": "Bengali"
+    "language": "Bengali lang"
 }
 HTTP/1.1 200 OK
-Date: Thu, 17 Feb 2022 20:41:12 GMT
+Date: Fri, 25 Feb 2022 21:12:11 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -39,8 +39,8 @@ Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
 
 <br />
-<b>Notice</b>:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's store','5453 Addresses Road','Bengali','2022-02-17 20:41:12','(+1)98894543543'' at line 1 in <b>/var/www/maps/api/place/req_files/DBController.php</b> on line <b>29</b><br />
-{"status":"OK","place_id":"52a9815bbfdf510986aed80fb4a06763","scope":"APP","reference":"cf7c3d25efb3491c1360ebb94b804236cf7c3d25efb3491c1360ebb94b804236","id":"cf7c3d25efb3491c1360ebb94b804236"}
+<b>Notice</b>:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's store','5 Addresses Road','Bengali lang','2022-02-25 21:12:11','(+1)9889454354' at line 1 in <b>/var/www/maps/api/place/req_files/DBController.php</b> on line <b>29</b><br />
+{"status":"OK","place_id":"17a251da4b7bbff10716e346cf606861","scope":"APP","reference":"1338150c576380df0760c387999c388a1338150c576380df0760c387999c388a","id":"1338150c576380df0760c387999c388a"}
 Request method:	POST
 Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
 Proxy:			<none>
@@ -70,7 +70,7 @@ Body:
     "language": "hindi"
 }
 HTTP/1.1 200 OK
-Date: Thu, 17 Feb 2022 20:41:13 GMT
+Date: Fri, 25 Feb 2022 21:12:13 GMT
 Server: Apache/2.4.18 (Ubuntu)
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Methods: POST
@@ -82,5 +82,5 @@ Connection: Keep-Alive
 Content-Type: application/json;charset=UTF-8
 
 <br />
-<b>Notice</b>:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's store','545357676 Addresses Road','hindi','2022-02-17 20:41:13','(+1)988945435' at line 1 in <b>/var/www/maps/api/place/req_files/DBController.php</b> on line <b>29</b><br />
-{"status":"OK","place_id":"3c0d4d610ea62f77fcfa2cf13d592a62","scope":"APP","reference":"adc8db6739545778ccd5a3e3d12770ecadc8db6739545778ccd5a3e3d12770ec","id":"adc8db6739545778ccd5a3e3d12770ec"}
+<b>Notice</b>:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's store','545357676 Addresses Road','hindi','2022-02-25 21:12:13','(+1)988945435' at line 1 in <b>/var/www/maps/api/place/req_files/DBController.php</b> on line <b>29</b><br />
+{"status":"OK","place_id":"01711ecede6dbe2c6a313eb863cc863e","scope":"APP","reference":"1c9673034a9a6763290199670bb41eed1c9673034a9a6763290199670bb41eed","id":"1c9673034a9a6763290199670bb41eed"}

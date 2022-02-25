@@ -12,6 +12,7 @@ import io.cucumber.core.cli.Main;
 @RunWith(Cucumber.class)
 @CucumberOptions(
     features = "src/test/java/BDD/Features",
+    plugin = {"pretty","json:target/jsonReports/reports.json","html:target/HTMLReport/report.html"},
     glue = {"BDD.StepDefinition"}
 )
 public class TestRunner
