@@ -1,0 +1,86 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Magiculy House",
+    "phone_number": "(+1)98894543543",
+    "address": "5 Addresses Road",
+    "types": [
+        "HORNBILL",
+        "cobbler's store"
+    ],
+    "website": "https://google.com",
+    "language": "Bengali lang"
+}
+HTTP/1.1 200 OK
+Date: Fri, 25 Feb 2022 21:12:11 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 529
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+<br />
+<b>Notice</b>:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's store','5 Addresses Road','Bengali lang','2022-02-25 21:12:11','(+1)9889454354' at line 1 in <b>/var/www/maps/api/place/req_files/DBController.php</b> on line <b>29</b><br />
+{"status":"OK","place_id":"17a251da4b7bbff10716e346cf606861","scope":"APP","reference":"1338150c576380df0760c387999c388a1338150c576380df0760c387999c388a","id":"1338150c576380df0760c387999c388a"}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "location": {
+        "lat": -38.383494,
+        "lng": 33.427362
+    },
+    "accuracy": 50,
+    "name": "Magiconical House",
+    "phone_number": "(+1)98894543543",
+    "address": "545357676 Addresses Road",
+    "types": [
+        "HORNBILL",
+        "cobbler's store"
+    ],
+    "website": "https://google.com",
+    "language": "hindi"
+}
+HTTP/1.1 200 OK
+Date: Fri, 25 Feb 2022 21:12:13 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 529
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+<br />
+<b>Notice</b>:  You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's store','545357676 Addresses Road','hindi','2022-02-25 21:12:13','(+1)988945435' at line 1 in <b>/var/www/maps/api/place/req_files/DBController.php</b> on line <b>29</b><br />
+{"status":"OK","place_id":"01711ecede6dbe2c6a313eb863cc863e","scope":"APP","reference":"1c9673034a9a6763290199670bb41eed1c9673034a9a6763290199670bb41eed","id":"1c9673034a9a6763290199670bb41eed"}
